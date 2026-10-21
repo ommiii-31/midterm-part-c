@@ -27,8 +27,8 @@ public static void main(String[] args) {
         }
 
         System.out.print("Enter choice: ");
-        int choice = input.nextInt();
-
+        int choice = input.nextInt();                         
+                                                    added comment from github 
         String favouriteGenre = genres[choice - 1];
 
         System.out.println("\nUser Profile Created!");
